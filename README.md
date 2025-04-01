@@ -18,7 +18,7 @@ Returns a list of release cycles for a given product, along with their end-of-li
 
 #### Parameters
 
-```json
+```sh
 {
   "product_name": "string" // e.g. "ubuntu", "nodejs"
 }
@@ -29,7 +29,7 @@ Returns detailed information about a specific product release cycle, such as sup
 
 #### Parameters
 
-```json
+```sh
 {
   "product_name": "string", // e.g. "ubuntu"
   "cycle_name": "string"    // e.g. "22.04"
